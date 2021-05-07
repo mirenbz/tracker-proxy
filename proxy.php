@@ -34,13 +34,13 @@ if (! isset($MATOMO_URL) && isset($PIWIK_URL)) {
 // with your Matomo URL ending with a slash.
 // This URL will never be revealed to visitors or search engines.
 if (! isset($MATOMO_URL)) {
-    $MATOMO_URL = 'http://your-matomo-domain.example.org/matomo/';
+    $MATOMO_URL = 'https://analytics.miren.bz/';
 }
 
 // Edit the line below, and replace xyz by the token_auth for the user "UserTrackingAPI"
 // which you created when you followed instructions above.
 if (! isset($TOKEN_AUTH)) {
-    $TOKEN_AUTH = 'xyz';
+    $TOKEN_AUTH = '042ea37aa0d4edd28cd1603de7cae42e';
 }
 
 // Maximum time, in seconds, to wait for the Matomo server to return the 1*1 GIF
